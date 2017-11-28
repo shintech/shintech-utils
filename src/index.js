@@ -9,6 +9,8 @@ function getStatusCodeStyle (status, method) {
     message['method'] = chalk.magenta(method)
   } else if (method === 'PUT') {
     message['method'] = chalk.blue(method)
+  } else if (method === 'DELETE') {
+    message['method'] = chalk.red(method)
   }
 
   if (status === 400) {
