@@ -1,6 +1,6 @@
 {
   "name": "shintech-utils",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "js utils",
   "main": "./build/index.js",
   "repository": {
